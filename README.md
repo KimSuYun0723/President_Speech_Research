@@ -13,13 +13,13 @@
 # 2. 데이터 수집 및 전처리(crawling)
 ## `crawling/president_1_19`
 1대 이승만 대통령부터 19대 문재인 대통령 연설문까지 크롤링 및 전처리하는 코드를 모아둔 폴더입니다.     
-Link : [대통령기록관](https://www.pa.go.kr/research/contents/speech/index.jsp)
+--> Link : [대통령기록관](https://www.pa.go.kr/research/contents/speech/index.jsp)
 - `./since_president_crawling.ipynb` : 크롤링 코드
 - `./preprocessing_1_19.ipynb` : 전처리 코드
 
 ## `crawling/president_20`
 20대 윤석열 대통령 연설문(~2024.07.02)까지 크롤링 및 전처리하는 코드를 모아둔 폴더입니다.    
-Link : [대한민국 대통령실](https://www.president.go.kr/president/speeches)
+--> Link : [대한민국 대통령실](https://www.president.go.kr/president/speeches)
 - `./president_office_crawling.ipynb` : 크롤링 코드
 - `./preprocessing_20.ipynb` : 전처리 코드
 - `./merge_csv.ipynb` : 나누어 실행하여 생성한 csv를 합치는 코드
@@ -33,15 +33,15 @@ Link : [대한민국 대통령실](https://www.president.go.kr/president/speeche
 ### `./total_counts`
 각 대통령별로 사용했던 단어 당 빈도수를 계산하여 csv로 정리한 파일들을 모아둔 폴더입니다.
 
-## 3-2. 네트워크 분석 결과 : `frequencyNnetwork/network_results`
+## 3-2. 네트워크 분석 결과 : `frequencyNnetwork/network_result`
 대통령 별로 폴더가 정리되어 있습니다. 
 각 폴더에는 다음과 같은 일정한 형식으로 정보가 저장되어있습니다.
 - `./data`     
-: 네트워크 분석 시각화를 위한 노드(Node), 엣지(Edge), 행렬(Matrix)가 담겨있습니다.
+: 네트워크 분석 시각화를 위한 노드(Node), 엣지(Edge), 행렬(Matrix)가 담겨있는 폴더입니다.
 - `./{대통령 이름} DR`     
-: Degree Report입니다. 총 3가지 통계량(Degree Distribution, Indegree Distribution, Outdegree Distribution)에 대한 시각화 결과물이 담겨있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다.
+: Degree Report가 담긴 폴더입니다. 총 3가지 통계량(Degree Distribution, Indegree Distribution, Outdegree Distribution)에 대한 시각화 결과물이 담겨있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다.
 - `./{대통령 이름} GDR`     
-: Graph Distance Report입니다. 총 4가지 통계량(Betweenness Centrality Distribution, Closeness Centrality Distribution, Eccentricity Distribution, Harmonic Closeness Centrality Distribution)에 대한 시각화 결과물이 담겨 있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다. 
+: Graph Distance Report가 담긴 폴더입니다. 총 4가지 통계량(Betweenness Centrality Distribution, Closeness Centrality Distribution, Eccentricity Distribution, Harmonic Closeness Centrality Distribution)에 대한 시각화 결과물이 담겨 있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다. 
 - `./{대통령 이름}_network.gephi`    
 : 네트워크 분석 시각화 툴인 Gephi 파일입니다. 
 - `./{대통령 이름}.jpg`     

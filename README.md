@@ -15,7 +15,7 @@
 대통령 별로 폴더가 정리되어 있습니다. 
 각 폴더에는 다음과 같은 일정한 형식으로 정보가 저장되어있습니다.
 ## `./data`     
-: 네트워크 분석 시각화를 위한 노드(Node), 엣지(Edge), 행렬(Matrix)가 담겨있는 폴더입니다.
+네트워크 분석 시각화를 위한 노드(Node), 엣지(Edge), 행렬(Matrix)가 담겨있는 폴더입니다.
 ## `./{대통령 이름} DR`     
 Degree Report가 담긴 폴더입니다. 총 3가지 통계량(Degree Distribution, Indegree Distribution, Outdegree Distribution)에 대한 시각화 결과물이 담겨있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다.
 ## `./{대통령 이름} GDR`     

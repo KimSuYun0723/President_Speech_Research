@@ -17,13 +17,13 @@
 ## `./data`     
 : 네트워크 분석 시각화를 위한 노드(Node), 엣지(Edge), 행렬(Matrix)가 담겨있는 폴더입니다.
 ## `./{대통령 이름} DR`     
-: Degree Report가 담긴 폴더입니다. 총 3가지 통계량(Degree Distribution, Indegree Distribution, Outdegree Distribution)에 대한 시각화 결과물이 담겨있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다.
+Degree Report가 담긴 폴더입니다. 총 3가지 통계량(Degree Distribution, Indegree Distribution, Outdegree Distribution)에 대한 시각화 결과물이 담겨있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다.
 ## `./{대통령 이름} GDR`     
-: Graph Distance Report가 담긴 폴더입니다. 총 4가지 통계량(Betweenness Centrality Distribution, Closeness Centrality Distribution, Eccentricity Distribution, Harmonic Closeness Centrality Distribution)에 대한 시각화 결과물이 담겨 있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다. 
+Graph Distance Report가 담긴 폴더입니다. 총 4가지 통계량(Betweenness Centrality Distribution, Closeness Centrality Distribution, Eccentricity Distribution, Harmonic Closeness Centrality Distribution)에 대한 시각화 결과물이 담겨 있습니다. 이 모든 시각화 자료를 한눈에 볼 수 있는 html 파일도 함께 들어 있습니다. 
 ## `./{대통령 이름}_network.gephi`    
-: 네트워크 분석 시각화 툴인 Gephi 파일입니다. 
+네트워크 분석 시각화 툴인 Gephi 파일입니다. 
 ## `./{대통령 이름}.jpg`     
-: 최종 시각화 결과물입니다.     
+최종 시각화 결과물입니다.     
 
 
 ****
